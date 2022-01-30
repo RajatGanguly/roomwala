@@ -1,0 +1,10 @@
+.label{
+    display: inline-block;
+    width: 16%;
+}
+
+.input{
+    display: inline-block;
+    width: 84%;
+    margin-bottom: 4vh;
+}

@@ -1,0 +1,25 @@
+.quizcon{
+    background: #FBE0C4;
+    height: 48vh;
+    border-radius: 8px;
+}
+.houselogo{
+    width: 8vw;
+    height: 16vh;
+}
+.quizbox{
+    background: #FFF;
+    height: 36vh;
+    border-radius: 16px;
+}
+.quizrobot{
+    height: 18vh;
+    position: relative;
+    left: -12vw;
+}
+.quizbtn{
+    background: #0061A8;
+}
+.quizbtn:hover{
+    background: #1975B5;
+}

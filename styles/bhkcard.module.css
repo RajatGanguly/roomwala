@@ -1,0 +1,22 @@
+.cardbhkpic{
+    width: 24vw;
+    height: 32vh;
+    border-radius: 12px;
+}
+.cardbhktitle{
+    position: relative;
+    top: -24vh;
+    left: 6vw;
+}
+.cardbhktitle h3,.cardbhktitle h5{
+    color: #ffffff;
+}
+@media(max-width: 767px){
+    .cardbhkpic{
+        width: 60vw;
+        height: 40vh;
+    }
+}
+.cardbhkpic:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,16 @@
+.propertylistcon{
+    height: 32vh;
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 16vh;
+    margin-left:0;
+}
+.propertylistpic{
+    height: 32vh;
+    border-radius: 6px;
+    margin-left: -24px;
+}
+.propertyboxrow div, .propertyboxrow div span{
+    color: #000;
+}

@@ -1,0 +1,22 @@
+.cardPic{
+    width: 36vw;
+    height: 40vh;
+    border-radius: 12px;
+}
+.cardTitle{
+    position: relative;
+    top: -36vh;
+    left:12vw;
+}
+.h3, .h5{
+    color: #ffffff;
+}
+@media(max-width: 767px){
+    .cardPic{
+        width: 60vw;
+        height: 40vh;
+    }
+}
+.cardPic:hover {
+    transform: scale(1.1);
+}
