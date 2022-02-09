@@ -16,7 +16,7 @@ function Footer() {
                   <h5 className={styles.widgetTitle}>
                     ROOMWALA<span></span>
                   </h5>
-                  <p>Roomwala where bhaiya takes your gend for fun</p>
+                  <p>Roomwala where you can get your dream room in a very affordable price</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ function Footer() {
                     Contact Us<span></span>
                   </h5>
                   <p>
-                    Contact us for some special fan service, oh yeahhhh!!!!!
+                    We will contact you in no time 
                   </p>
                   <div className="emailfield">
                     

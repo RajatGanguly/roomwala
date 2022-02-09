@@ -5,3 +5,168 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 16vh;
 }
+
+.filterbox{
+    border-bottom: 0.2px solid gray;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+.togglebox{
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 4vh;
+}
+
+.togglebox span{
+    font-size: large;
+    font-weight: 600;
+}
+
+/* FOR TOGGLING SWITCH */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+  
+  /* Hide default HTML checkbox */
+  .input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slidertoggle */
+  .slidertoggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0061a8;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slidertoggle:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .input:checked + .slidertoggle {
+    background-color: #ff19c6;
+  }
+  
+  .input:focus + .slidertoggle {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .input:checked + .slidertoggle:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded slidertoggles */
+  .slidertoggle.round {
+    border-radius: 34px;
+  }
+  
+  .slidertoggle.round:before {
+    border-radius: 50%;
+  }
+
+  /* FOR MONEY RANGE SLIDER */
+
+  .moneyrangebox{
+      margin-top: 6vh;
+  }
+
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .sliderrange {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .sliderrange:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .sliderrange::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    background: #0061a8; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .sliderrange::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    background: #0061a8; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .moneyh4{
+    font-size: large;
+    font-weight: 600;   
+  }
+
+/* BHK OPTIONS */
+
+.bhkbox{
+    margin-top: 6vh;
+}
+
+.bhkoption{
+    display: inline-block;
+    width: auto;
+    padding: 4px 12px;
+    margin: 10px 8px;
+    border: 0.2px rgb(180, 179, 179) solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bhkoption:hover{
+    background-color: rgb(230, 230, 230);
+    border: 0.6px solid black
+}
+
+.inputver:checked + .slidervertoggle {
+  background-color: #0061a8;
+}
+
+.slidervertoggle {
+  background-color: #8d8d8d;
+}

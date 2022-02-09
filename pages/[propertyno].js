@@ -5,9 +5,10 @@ import Footer from '../components/Footer';
 
 function propertyno() {
     const router = useRouter()
-    const pno = router.query.propertyno
+    const pno = String(router.query.propertyno).replace('propertyno', '')
   return <>
   <Head>
+    <title>ROOMWALA | P.No: {pno}</title>
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -15,8 +16,8 @@ function propertyno() {
   crossorigin="anonymous"
 />
   </Head>
-    <Navbar/><br/><br/><br/><br/>
-    <h1>{pno}</h1>
+    <Navbar/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <Footer/>
   </>;
 }
